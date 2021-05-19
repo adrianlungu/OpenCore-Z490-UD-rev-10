@@ -1,4 +1,4 @@
-# Z490-UD-rev-1.0 running on OpenCore 0.6.1 (Catalina)
+# Z490-UD-rev-1.0 running on OpenCore 0.6.9 (Catalina)
 ## System Specs
 
 - MB: Gigabyte Z490 UD Rev 1.0
@@ -49,4 +49,5 @@ Without CSM Support enabled (and 4G Decoding), the setup does not boot with Rade
 - InsanelyMac for a ton of helpful resources
 - The InsanelyHack Discord community for help and support
 - [The OpenCore Vanilla Desktop Guide](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/)
+- [USBToolBox Tool](https://github.com/USBToolBox/tool)
 
