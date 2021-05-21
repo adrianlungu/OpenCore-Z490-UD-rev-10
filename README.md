@@ -7,11 +7,22 @@
 
 ## BIOS Settings
 
-- Bios Version: F4 (update coming soon)
+- Bios Version: F20
 
 ### BIOS Features
 
-Coming Soon
+**Disabled**
+
+- Fast Boot
+- Secure Boot
+- VT-d
+
+**Enabled**
+
+- 4G Decoding
+  - Re-size BAR support: Auto
+- Hyper-threading
+- CSM Support [*my system won't properly boot without this on due to the GPU*]
 
 ## What's Working
 
@@ -39,7 +50,7 @@ If you find a better configuration for these specs, feel free to make a pull req
 
 ### My computer does not seem to boot
 
-Without CSM Support enabled (and 4G Decoding), the setup does not boot with Radeon 580 GPU (or probably any other dedicated GPU) for some reason. Might be fixed in one of the later BIOS updates but I have not tested them yet so I cannot confirm that 4G Decoding is enabled by default. 
+Without CSM Support enabled (and 4G Decoding), the setup does not boot with my Sapphire Radeon 580 GPU for some reason.
 
 ## Special Thanks To
 
