@@ -87,7 +87,7 @@
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -211,6 +211,8 @@
 		<dict>
 			<key>HibernateMode</key>
 			<string>None</string>
+			<key>LauncherOption</key>
+			<string>Full</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -389,7 +391,7 @@
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>RequestBootVarRouting</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 </dict>
