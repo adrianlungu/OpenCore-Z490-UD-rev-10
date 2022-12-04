@@ -1,11 +1,11 @@
-# Z490-UD-rev-1.0 running on OpenCore 0.6.9 (Catalina)
+# Z490-UD-rev-1.0 running on OpenCore 0.8.1 (Monterey)
 ## System Specs
 
 - MB: Gigabyte Z490 UD Rev 1.0
 - CPU: Intel i7 10700
-- GPU: Radeon RX 580
+- GPU: Radeon RX 6600
 
-## BIOS Settings
+## BIOS Settings (Needs To Be Updated)
 
 - Bios Version: F20
 
@@ -38,6 +38,8 @@
 - [x] Sleep
 - [x] External Audio (USB Audio Card)
 - [x] USB
+- [x] Bluetooth
+- [x] Graphical Boot Picker
 - [ ] MB Audio
 - [ ] iGPU
 
@@ -45,17 +47,11 @@
 
 ## How can I use this ?
 
-You can just use the EFI folder in the repository as is to boot either a Catalina installation disk or boot into your existing Mac installation.
+You can just use the EFI folder in the repository as is to boot either a Monterey installation disk or boot into your existing Mac installation.
 
 Do test using an USB stick before overwriting any existing Clover/OpenCore installation as issues could occur.
 
 If you find a better configuration for these specs, feel free to make a pull request or open an issue!
-
-## FAQ
-
-### My computer does not seem to boot
-
-Without CSM Support enabled (and 4G Decoding), the setup does not boot with my Sapphire Radeon 580 GPU for some reason.
 
 ## Special Thanks To
 
